@@ -1,0 +1,93 @@
+/*public style*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.clr{
+    clear: both;
+    
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    flex-wrap: wrap;
+    margin: auto;
+    flex-direction: column;
+    justify-content:center;  
+
+
+}
+
+/*navbar*/
+.navbar{
+    
+    background-color:black;
+    
+}
+.navbar.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+display:flex;
+flex-wrap: wrap;
+justify-content:space-between;   
+
+}
+
+.logo img{
+    width:20%;
+    margin-top: 5px;
+}
+.list ul  {
+display: flex;
+justify-content: space-between;
+gap: 5%;
+
+}
+
+.list a{
+
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+
+.portfolio1 {
+    background-color: cornsilk;
+    text-align: center;
+
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    flex-direction: row;
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+
+.portfolio1.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+.portfolio-item{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 31.33%;
+}
+.portfolio1 img{
+    width: 100%
+
+
+}
